@@ -1,0 +1,103 @@
+body {
+    background-color: #192623;
+    color: #f1e4cd;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#reset {
+    margin-bottom: 20px;
+}
+
+.reset {
+    height: 100px;
+    width: 100px;
+}
+
+.reset img {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fight {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.vs {
+    align-items: bottom;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+}
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: #5f3c2d
+    ;
+}
+
+#you {
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 110px;
+    background-color: #cda24b;
+    display: flex;
+}
+
+#comp {
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 110px;
+    background-color: #cda24b;
+    display: flex;
+}
+
+.gameCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameCt {
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 75px;
+    background-color: #5f3c2d;
+    
+}

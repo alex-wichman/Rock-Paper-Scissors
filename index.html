@@ -3,8 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css"
     </head>
-    <script src="javascript.js">
-        
-    </script>
+    
+    <body>
+        <div class="title">Rock Paper Scissors</div>
+
+        <div class="scores">
+            <div><h1 id="ys"></h1></div>
+            <div class="reset">
+                <button id="reset"><img src="img/refresh.png"></button>
+            </div>
+            <div><h1 id="cs"></h1></div>
+        </div>
+
+        <div class="fight">
+            <div class="you">YOU<h1 id="you"></h1></div>
+            <div id="vs">VS</div>
+            <div>COMPUTER<h1 id="comp"></h1></div>
+        </div>
+
+        <div class="message"><h1 id="msg">Let's play rock-paper-scissors!</h1></div>
+
+        <div class="gameCount"><h1 id="gameCt">Games Played: 0</h1></div>
+
+        <div class="options">
+            <button id="Rock">Rock</button>
+            <button id="Paper">Paper</button>
+            <button id="Scissors">Scissors</button>
+        </div>
+    </body>
+    <script src="javascript.js"></script>
+
 </html>
