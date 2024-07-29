@@ -101,3 +101,8 @@ body {
     background-color: #5f3c2d;
     
 }
+
+.option-containers img {
+    height: 100px;
+    width: 100px;
+}
